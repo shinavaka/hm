@@ -1,0 +1,8 @@
+{
+    "name": "guardian-actor.lua",
+    "load": [
+        "/core.lua",
+        "/guardian-actor.lua",
+        "/guardian-spells.lua"
+    ]
+}

@@ -26,9 +26,9 @@ guardian:Init(function()
 
     local target = awful.target
     if target then
-        print("Current target ID:", target.id)
+        --print("Current target ID:", target.id)
         if target.id == 80018 and target.distance <= 40 and target.hp > 0 then
-            print("Found correct target within range and alive")
+            --print("Found correct target within range and alive")
             moonfire()
         else
             -- Try to find and target the enemy we want
@@ -36,7 +36,7 @@ guardian:Init(function()
             if units then
                 for _, unit in ipairs(units) do
                     if unit.id == 80018 and unit.distance <= 40 and unit.hp > 0 then
-                        print("Found target enemy alive, targeting it")
+                        --print("Found target enemy alive, targeting it")
                         TargetUnit(unit.guid)
                         return
                     end

@@ -12,11 +12,11 @@ end
 -- Combat routine
 guardian:Init(function()
     -- Check if we're level 60, if so logout
-    if awful.player.level >= 70 then
-        print("Reached level 70! Logging out...")
-        Logout()
-        return
-    end
+    --if awful.player.level >= 70 then
+      --  print("Reached level 70! Logging out...")
+        --Logout()
+       -- return
+    --end
 
     -- Check if it's time to jump
     if awful.time >= nextJumpTime then

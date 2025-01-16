@@ -1,5 +1,5 @@
 local Unlocker, awful, project = ...
-local shaman = project.shaman.ele
+local ele = project.shaman.ele
 
 print("ele shaman loaded!")
 
